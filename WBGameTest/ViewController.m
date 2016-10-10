@@ -31,11 +31,11 @@
     [self.view addSubview:dr];
     
     //手势刀刃的回调，在这个方法里做页面上所有水果item的碰撞检测
-    [dr setGesPoint:^(CGPoint p) {
+    [dr setGesPoint:^(CGPoint p,CGPoint force) {
         @synchronized (items) {
             for (int i = 0; i<items.count; i++) {
                 FruitToCart *f = [items objectAtIndex:i];
-                [f checkIn:p];
+                [f checkIn:p Force:force];
             }
 //            for (FruitToCart *f in items) {
 //                
@@ -98,7 +98,7 @@
                     }
                 }];
                 
-                [f setTouched:^(FruitToCart *item) {
+                [f setTouched:^(FruitToCart *item,CGPoint force) {
                     [item triggerAction];
                 }];
                 
@@ -138,14 +138,16 @@
 
 -(void)itemcartToPieces:(FruitToCart *)item {
     
-    cartedFruitPiece *pis1 = [[cartedFruitPiece alloc] initWithFrame:CGRectMake(item.frame.origin.x-item.frame.size.width/4, item.frame.origin.y, item.frame.size.width, item.frame.size.height) Params:@{@"duration":@"3",@"piece":@"left",@"type":[item.params valueForKey:@"type"]}];
+//    NSLog(@"%f,%f",item.cutForce.x,item.cutForce.y);
+    
+    cartedFruitPiece *pis1 = [[cartedFruitPiece alloc] initWithFrame:CGRectMake(item.frame.origin.x-item.frame.size.width/4, item.frame.origin.y, item.frame.size.width, item.frame.size.height) Params:@{@"duration":@"3",@"piece":@"left",@"type":[item.params valueForKey:@"type"],@"force":[NSValue valueWithCGPoint:item.cutForce]}];
     [pis1 startShow];
     
     [self.view insertSubview:pis1 atIndex:0];
     
     [gravityBehaviour addItem:pis1];
     UIPushBehavior *push1 = [[UIPushBehavior alloc] initWithItems:@[pis1] mode:UIPushBehaviorModeInstantaneous];
-    [push1 setPushDirection:CGVectorMake(-0.1, 0)];
+    [push1 setPushDirection:CGVectorMake(-0.1+item.cutForce.x*0.004*(arc4random()%3+1), 0+item.cutForce.y*0.004*(arc4random()%3+1))];
     [theAnimator addBehavior:push1];
     
     pis1.push = push1;
@@ -155,7 +157,7 @@
     }];
     
     
-    cartedFruitPiece *pis2 = [[cartedFruitPiece alloc] initWithFrame:CGRectMake(item.frame.origin.x+item.frame.size.width/4, item.frame.origin.y, item.frame.size.width, item.frame.size.height) Params:@{@"duration":@"3",@"piece":@"right",@"type":[item.params valueForKey:@"type"]}];
+    cartedFruitPiece *pis2 = [[cartedFruitPiece alloc] initWithFrame:CGRectMake(item.frame.origin.x+item.frame.size.width/4, item.frame.origin.y, item.frame.size.width, item.frame.size.height) Params:@{@"duration":@"3",@"piece":@"right",@"type":[item.params valueForKey:@"type"],@"force":[NSValue valueWithCGPoint:item.cutForce]}];
     [pis2 startShow];
 //    UIView *pis2 = [[UIView alloc] initWithFrame:CGRectMake(item.frame.origin.x+item.frame.size.width/2, item.frame.origin.y, item.frame.size.width/2, item.frame.size.height)];
 //    [pis2 setBackgroundColor:[UIColor greenColor]];
@@ -164,7 +166,7 @@
     
     [gravityBehaviour addItem:pis2];
     UIPushBehavior *push2 = [[UIPushBehavior alloc] initWithItems:@[pis2] mode:UIPushBehaviorModeInstantaneous];
-    [push2 setPushDirection:CGVectorMake(0.1, 0)];
+    [push2 setPushDirection:CGVectorMake(0.1+item.cutForce.x*0.004*(arc4random()%3+1), 0+item.cutForce.y*0.004*(arc4random()%3+1))];
     [theAnimator addBehavior:push2];
     
     pis2.push = push2;

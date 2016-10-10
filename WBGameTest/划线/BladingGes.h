@@ -19,7 +19,7 @@
 
 @interface BladingGes : UIView
 
-@property (copy) void (^GesPoint)(CGPoint p);
+@property (copy) void (^GesPoint)(CGPoint p,CGPoint f);
 
 -(void)setBackgroundImage:(UIImage *)image;
 

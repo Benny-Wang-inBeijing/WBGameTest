@@ -146,9 +146,12 @@ static CGPoint midpoint(CGPoint p0, CGPoint p1) {
     if (self.GesPoint) {
         CGPoint p1 = CGPointMake(p.x+(previousPoint.x-p.x)/3.0, p.y+(previousPoint.y-p.y)/3.0);
         CGPoint p2 = CGPointMake(p.x+(previousPoint.x-p.x)/3.0*2, p.y+(previousPoint.y-p.y)/3.0*2);
-        self.GesPoint(p1);
-        self.GesPoint(p2);
-        self.GesPoint(p);
+        
+        //受力矢量
+        CGPoint f = CGPointMake(p.x-previousPoint.x, p.y-previousPoint.y);
+        self.GesPoint(p1,f);
+        self.GesPoint(p2,f);
+        self.GesPoint(p,f);
     }
     
     //设置之前点

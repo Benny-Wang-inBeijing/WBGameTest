@@ -51,12 +51,14 @@
 }
 
 
--(BOOL)checkIn:(CGPoint)position{
+-(BOOL)checkIn:(CGPoint)position Force:(CGPoint)force{
     
     if (position.x>self.frame.origin.x && position.x<self.frame.origin.x+self.frame.size.width) {
         if (position.y>self.frame.origin.y && position.y<self.frame.origin.y+self.frame.size.height) {
+            ///受力位置
             if (self.touched) {
-                self.touched(self);
+                self.cutForce = force;
+                self.touched(self,force);
                 self.touched = nil;//确保之执行一次
             }
             return YES;

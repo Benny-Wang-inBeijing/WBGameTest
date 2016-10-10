@@ -10,9 +10,11 @@
 
 @interface FruitToCart : WBGameItem
 
-@property (copy) void (^touched)(FruitToCart *item);
+@property (copy) void (^touched)(FruitToCart *item,CGPoint force);
 @property (copy) void (^needDestory)(FruitToCart *item);
 
--(BOOL)checkIn:(CGPoint)position;
+@property (nonatomic , assign)CGPoint cutForce;
 
+//-(BOOL)checkIn:(CGPoint)position;
+-(BOOL)checkIn:(CGPoint)position Force:(CGPoint)force;
 @end
