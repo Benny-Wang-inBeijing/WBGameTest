@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D9993FE1DAB471B0060C4FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9993FD1DAB471B0060C4FB /* main.m */; };
+		2D9994011DAB471B0060C4FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9994001DAB471B0060C4FB /* AppDelegate.m */; };
+		2D9994041DAB471B0060C4FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9994031DAB471B0060C4FB /* ViewController.m */; };
+		2D9994071DAB471B0060C4FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D9994051DAB471B0060C4FB /* Main.storyboard */; };
+		2D9994091DAB471B0060C4FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D9994081DAB471B0060C4FB /* Assets.xcassets */; };
+		2D99940C1DAB471B0060C4FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D99940A1DAB471B0060C4FB /* LaunchScreen.storyboard */; };
+		2D99941B1DAB47470060C4FB /* BladingGes.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9994151DAB47470060C4FB /* BladingGes.m */; };
+		2D99941C1DAB47470060C4FB /* FruitToCart.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9994171DAB47470060C4FB /* FruitToCart.m */; };
+		2D9994221DAB47A50060C4FB /* WBGameItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9994211DAB47A50060C4FB /* WBGameItem.m */; };
+		2D9994251DAB49420060C4FB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9994241DAB49420060C4FB /* QuartzCore.framework */; };
+		2D9994281DAB49650060C4FB /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9994271DAB49650060C4FB /* Line.m */; };
+		2D99942C1DAB49DD0060C4FB /* cartedFruitPiece.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D99942B1DAB49DD0060C4FB /* cartedFruitPiece.m */; };
+		2D9994361DAB624D0060C4FB /* 柠檬.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D9994301DAB624D0060C4FB /* 柠檬.png */; };
+		2D9994371DAB624D0060C4FB /* 柠檬1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D9994311DAB624D0060C4FB /* 柠檬1.png */; };
+		2D9994381DAB624D0060C4FB /* 柠檬2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D9994321DAB624D0060C4FB /* 柠檬2.png */; };
+		2D9994391DAB624D0060C4FB /* 火龙果.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D9994331DAB624D0060C4FB /* 火龙果.png */; };
+		2D99943A1DAB624D0060C4FB /* 火龙果1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D9994341DAB624D0060C4FB /* 火龙果1.png */; };
+		2D99943B1DAB624D0060C4FB /* 火龙果2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D9994351DAB624D0060C4FB /* 火龙果2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D9993F91DAB471B0060C4FB /* WBGameTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBGameTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D9993FD1DAB471B0060C4FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D9993FF1DAB471B0060C4FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D9994001DAB471B0060C4FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D9994021DAB471B0060C4FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2D9994031DAB471B0060C4FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2D9994061DAB471B0060C4FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D9994081DAB471B0060C4FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D99940B1DAB471B0060C4FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D99940D1DAB471B0060C4FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D9994141DAB47470060C4FB /* BladingGes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BladingGes.h; sourceTree = "<group>"; };
+		2D9994151DAB47470060C4FB /* BladingGes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BladingGes.m; sourceTree = "<group>"; };
+		2D9994161DAB47470060C4FB /* FruitToCart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FruitToCart.h; path = "../划线/FruitToCart.h"; sourceTree = "<group>"; };
+		2D9994171DAB47470060C4FB /* FruitToCart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FruitToCart.m; path = "../划线/FruitToCart.m"; sourceTree = "<group>"; };
+		2D9994201DAB47A50060C4FB /* WBGameItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBGameItem.h; sourceTree = "<group>"; };
+		2D9994211DAB47A50060C4FB /* WBGameItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBGameItem.m; sourceTree = "<group>"; };
+		2D9994241DAB49420060C4FB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2D9994261DAB49650060C4FB /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		2D9994271DAB49650060C4FB /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
+		2D99942A1DAB49DD0060C4FB /* cartedFruitPiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cartedFruitPiece.h; sourceTree = "<group>"; };
+		2D99942B1DAB49DD0060C4FB /* cartedFruitPiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cartedFruitPiece.m; sourceTree = "<group>"; };
+		2D99942E1DAB4C5C0060C4FB /* WBHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBHeader.h; sourceTree = "<group>"; };
+		2D9994301DAB624D0060C4FB /* 柠檬.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "柠檬.png"; sourceTree = "<group>"; };
+		2D9994311DAB624D0060C4FB /* 柠檬1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "柠檬1.png"; sourceTree = "<group>"; };
+		2D9994321DAB624D0060C4FB /* 柠檬2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "柠檬2.png"; sourceTree = "<group>"; };
+		2D9994331DAB624D0060C4FB /* 火龙果.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火龙果.png"; sourceTree = "<group>"; };
+		2D9994341DAB624D0060C4FB /* 火龙果1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火龙果1.png"; sourceTree = "<group>"; };
+		2D9994351DAB624D0060C4FB /* 火龙果2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火龙果2.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D9993F61DAB471B0060C4FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D9994251DAB49420060C4FB /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D9993F01DAB471B0060C4FB = {
+			isa = PBXGroup;
+			children = (
+				2D9993FB1DAB471B0060C4FB /* WBGameTest */,
+				2D9993FA1DAB471B0060C4FB /* Products */,
+				2D9994231DAB49410060C4FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2D9993FA1DAB471B0060C4FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D9993F91DAB471B0060C4FB /* WBGameTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D9993FB1DAB471B0060C4FB /* WBGameTest */ = {
+			isa = PBXGroup;
+			children = (
+				2D99942F1DAB624D0060C4FB /* 切水果 */,
+				2D9994291DAB498C0060C4FB /* GameModels */,
+				2D99941F1DAB47630060C4FB /* gameSupport */,
+				2D9994131DAB47470060C4FB /* 划线 */,
+				2D9993FF1DAB471B0060C4FB /* AppDelegate.h */,
+				2D9994001DAB471B0060C4FB /* AppDelegate.m */,
+				2D9994021DAB471B0060C4FB /* ViewController.h */,
+				2D9994031DAB471B0060C4FB /* ViewController.m */,
+				2D9994051DAB471B0060C4FB /* Main.storyboard */,
+				2D9994081DAB471B0060C4FB /* Assets.xcassets */,
+				2D99940A1DAB471B0060C4FB /* LaunchScreen.storyboard */,
+				2D99940D1DAB471B0060C4FB /* Info.plist */,
+				2D9993FC1DAB471B0060C4FB /* Supporting Files */,
+			);
+			path = WBGameTest;
+			sourceTree = "<group>";
+		};
+		2D9993FC1DAB471B0060C4FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D9993FD1DAB471B0060C4FB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D9994131DAB47470060C4FB /* 划线 */ = {
+			isa = PBXGroup;
+			children = (
+				2D9994261DAB49650060C4FB /* Line.h */,
+				2D9994271DAB49650060C4FB /* Line.m */,
+				2D9994141DAB47470060C4FB /* BladingGes.h */,
+				2D9994151DAB47470060C4FB /* BladingGes.m */,
+			);
+			path = "划线";
+			sourceTree = "<group>";
+		};
+		2D99941F1DAB47630060C4FB /* gameSupport */ = {
+			isa = PBXGroup;
+			children = (
+				2D99942E1DAB4C5C0060C4FB /* WBHeader.h */,
+				2D9994201DAB47A50060C4FB /* WBGameItem.h */,
+				2D9994211DAB47A50060C4FB /* WBGameItem.m */,
+			);
+			path = gameSupport;
+			sourceTree = "<group>";
+		};
+		2D9994231DAB49410060C4FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D9994241DAB49420060C4FB /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D9994291DAB498C0060C4FB /* GameModels */ = {
+			isa = PBXGroup;
+			children = (
+				2D9994161DAB47470060C4FB /* FruitToCart.h */,
+				2D9994171DAB47470060C4FB /* FruitToCart.m */,
+				2D99942A1DAB49DD0060C4FB /* cartedFruitPiece.h */,
+				2D99942B1DAB49DD0060C4FB /* cartedFruitPiece.m */,
+			);
+			path = GameModels;
+			sourceTree = "<group>";
+		};
+		2D99942F1DAB624D0060C4FB /* 切水果 */ = {
+			isa = PBXGroup;
+			children = (
+				2D9994301DAB624D0060C4FB /* 柠檬.png */,
+				2D9994311DAB624D0060C4FB /* 柠檬1.png */,
+				2D9994321DAB624D0060C4FB /* 柠檬2.png */,
+				2D9994331DAB624D0060C4FB /* 火龙果.png */,
+				2D9994341DAB624D0060C4FB /* 火龙果1.png */,
+				2D9994351DAB624D0060C4FB /* 火龙果2.png */,
+			);
+			path = "切水果";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D9993F81DAB471B0060C4FB /* WBGameTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D9994101DAB471B0060C4FB /* Build configuration list for PBXNativeTarget "WBGameTest" */;
+			buildPhases = (
+				2D9993F51DAB471B0060C4FB /* Sources */,
+				2D9993F61DAB471B0060C4FB /* Frameworks */,
+				2D9993F71DAB471B0060C4FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WBGameTest;
+			productName = WBGameTest;
+			productReference = 2D9993F91DAB471B0060C4FB /* WBGameTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D9993F11DAB471B0060C4FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = wangbo;
+				TargetAttributes = {
+					2D9993F81DAB471B0060C4FB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = EWA2ZXUT77;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2D9993F41DAB471B0060C4FB /* Build configuration list for PBXProject "WBGameTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D9993F01DAB471B0060C4FB;
+			productRefGroup = 2D9993FA1DAB471B0060C4FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D9993F81DAB471B0060C4FB /* WBGameTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D9993F71DAB471B0060C4FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D9994391DAB624D0060C4FB /* 火龙果.png in Resources */,
+				2D99943B1DAB624D0060C4FB /* 火龙果2.png in Resources */,
+				2D9994381DAB624D0060C4FB /* 柠檬2.png in Resources */,
+				2D99940C1DAB471B0060C4FB /* LaunchScreen.storyboard in Resources */,
+				2D9994361DAB624D0060C4FB /* 柠檬.png in Resources */,
+				2D99943A1DAB624D0060C4FB /* 火龙果1.png in Resources */,
+				2D9994091DAB471B0060C4FB /* Assets.xcassets in Resources */,
+				2D9994371DAB624D0060C4FB /* 柠檬1.png in Resources */,
+				2D9994071DAB471B0060C4FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D9993F51DAB471B0060C4FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D99942C1DAB49DD0060C4FB /* cartedFruitPiece.m in Sources */,
+				2D99941C1DAB47470060C4FB /* FruitToCart.m in Sources */,
+				2D9994041DAB471B0060C4FB /* ViewController.m in Sources */,
+				2D9994281DAB49650060C4FB /* Line.m in Sources */,
+				2D9994011DAB471B0060C4FB /* AppDelegate.m in Sources */,
+				2D9993FE1DAB471B0060C4FB /* main.m in Sources */,
+				2D99941B1DAB47470060C4FB /* BladingGes.m in Sources */,
+				2D9994221DAB47A50060C4FB /* WBGameItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D9994051DAB471B0060C4FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D9994061DAB471B0060C4FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D99940A1DAB471B0060C4FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D99940B1DAB471B0060C4FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D99940E1DAB471B0060C4FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D99940F1DAB471B0060C4FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D9994111DAB471B0060C4FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EWA2ZXUT77;
+				INFOPLIST_FILE = WBGameTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanyintec.WBGameTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2D9994121DAB471B0060C4FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EWA2ZXUT77;
+				INFOPLIST_FILE = WBGameTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanyintec.WBGameTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D9993F41DAB471B0060C4FB /* Build configuration list for PBXProject "WBGameTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D99940E1DAB471B0060C4FB /* Debug */,
+				2D99940F1DAB471B0060C4FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D9994101DAB471B0060C4FB /* Build configuration list for PBXNativeTarget "WBGameTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D9994111DAB471B0060C4FB /* Debug */,
+				2D9994121DAB471B0060C4FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D9993F11DAB471B0060C4FB /* Project object */;
+}
