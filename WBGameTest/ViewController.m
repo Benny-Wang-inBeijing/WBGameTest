@@ -100,6 +100,7 @@
                 
                 [f setTouched:^(FruitToCart *item,CGPoint force) {
                     [item triggerAction];
+                    ///切到的水果在这里做处理
                 }];
                 
                 //因为碎片也要加入到重力系统中，所以这个事件在vc中写了
@@ -114,11 +115,11 @@
                 [gravityBehaviour addItem:f];
                 
                 UIPushBehavior *push = [[UIPushBehavior alloc] initWithItems:@[f] mode:UIPushBehaviorModeInstantaneous];
-                
-                
+            
                 float fx = 0.1*(arc4random()%6-3.0);
                 float fy = (float)(-1.7-0.1*(arc4random()%9));
                 
+                ///不同大小的水果需要不同大小的力
                 if ([type isEqualToString:@"火龙果"]) {
                     fx = fx*1.7;
                     fy = fy*1.7;
@@ -174,6 +175,8 @@
         [theAnimator removeBehavior:item.push];
         [gravityBehaviour removeItem:item];
     }];
+    
+    //喷出汁液等等的效果，这里还可以添加
 }
 
 
