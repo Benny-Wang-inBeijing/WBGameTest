@@ -23,6 +23,9 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.title = @"切水果";
+    
     // Do any additional setup after loading the view, typically from a nib.
     [self.view setBackgroundColor:[UIColor blackColor]];
     BladingGes *dr = [[BladingGes alloc] initWithFrame:self.view.frame];

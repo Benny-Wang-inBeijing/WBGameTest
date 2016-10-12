@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D07C5BB1DAE275700A40027 /* CartPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D07C5BA1DAE275700A40027 /* CartPlayViewController.m */; };
+		2D07C5BE1DAE432000A40027 /* UIView+WBAnimationHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D07C5BD1DAE432000A40027 /* UIView+WBAnimationHelp.m */; };
 		2D9993FE1DAB471B0060C4FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9993FD1DAB471B0060C4FB /* main.m */; };
 		2D9994011DAB471B0060C4FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9994001DAB471B0060C4FB /* AppDelegate.m */; };
 		2D9994041DAB471B0060C4FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9994031DAB471B0060C4FB /* ViewController.m */; };
@@ -25,9 +27,14 @@
 		2D9994391DAB624D0060C4FB /* 火龙果.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D9994331DAB624D0060C4FB /* 火龙果.png */; };
 		2D99943A1DAB624D0060C4FB /* 火龙果1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D9994341DAB624D0060C4FB /* 火龙果1.png */; };
 		2D99943B1DAB624D0060C4FB /* 火龙果2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D9994351DAB624D0060C4FB /* 火龙果2.png */; };
+		2DEAFAA71DACF3C100078FF8 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEAFAA61DACF3C100078FF8 /* MenuTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D07C5B91DAE275700A40027 /* CartPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartPlayViewController.h; sourceTree = "<group>"; };
+		2D07C5BA1DAE275700A40027 /* CartPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartPlayViewController.m; sourceTree = "<group>"; };
+		2D07C5BC1DAE432000A40027 /* UIView+WBAnimationHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WBAnimationHelp.h"; sourceTree = "<group>"; };
+		2D07C5BD1DAE432000A40027 /* UIView+WBAnimationHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WBAnimationHelp.m"; sourceTree = "<group>"; };
 		2D9993F91DAB471B0060C4FB /* WBGameTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBGameTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D9993FD1DAB471B0060C4FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2D9993FF1DAB471B0060C4FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,6 +63,8 @@
 		2D9994331DAB624D0060C4FB /* 火龙果.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火龙果.png"; sourceTree = "<group>"; };
 		2D9994341DAB624D0060C4FB /* 火龙果1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火龙果1.png"; sourceTree = "<group>"; };
 		2D9994351DAB624D0060C4FB /* 火龙果2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火龙果2.png"; sourceTree = "<group>"; };
+		2DEAFAA51DACF3C100078FF8 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
+		2DEAFAA61DACF3C100078FF8 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +107,10 @@
 				2D9994001DAB471B0060C4FB /* AppDelegate.m */,
 				2D9994021DAB471B0060C4FB /* ViewController.h */,
 				2D9994031DAB471B0060C4FB /* ViewController.m */,
+				2D07C5B91DAE275700A40027 /* CartPlayViewController.h */,
+				2D07C5BA1DAE275700A40027 /* CartPlayViewController.m */,
+				2DEAFAA51DACF3C100078FF8 /* MenuTableViewController.h */,
+				2DEAFAA61DACF3C100078FF8 /* MenuTableViewController.m */,
 				2D9994051DAB471B0060C4FB /* Main.storyboard */,
 				2D9994081DAB471B0060C4FB /* Assets.xcassets */,
 				2D99940A1DAB471B0060C4FB /* LaunchScreen.storyboard */,
@@ -132,6 +145,8 @@
 				2D99942E1DAB4C5C0060C4FB /* WBHeader.h */,
 				2D9994201DAB47A50060C4FB /* WBGameItem.h */,
 				2D9994211DAB47A50060C4FB /* WBGameItem.m */,
+				2D07C5BC1DAE432000A40027 /* UIView+WBAnimationHelp.h */,
+				2D07C5BD1DAE432000A40027 /* UIView+WBAnimationHelp.m */,
 			);
 			path = gameSupport;
 			sourceTree = "<group>";
@@ -250,9 +265,12 @@
 				2D99941C1DAB47470060C4FB /* FruitToCart.m in Sources */,
 				2D9994041DAB471B0060C4FB /* ViewController.m in Sources */,
 				2D9994281DAB49650060C4FB /* Line.m in Sources */,
+				2D07C5BB1DAE275700A40027 /* CartPlayViewController.m in Sources */,
+				2D07C5BE1DAE432000A40027 /* UIView+WBAnimationHelp.m in Sources */,
 				2D9994011DAB471B0060C4FB /* AppDelegate.m in Sources */,
 				2D9993FE1DAB471B0060C4FB /* main.m in Sources */,
 				2D99941B1DAB47470060C4FB /* BladingGes.m in Sources */,
+				2DEAFAA71DACF3C100078FF8 /* MenuTableViewController.m in Sources */,
 				2D9994221DAB47A50060C4FB /* WBGameItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +432,7 @@
 				2D9994121DAB471B0060C4FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
