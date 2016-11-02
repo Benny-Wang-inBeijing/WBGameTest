@@ -28,6 +28,7 @@
 		2D9994391DAB624D0060C4FB /* 火龙果.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D9994331DAB624D0060C4FB /* 火龙果.png */; };
 		2D99943A1DAB624D0060C4FB /* 火龙果1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D9994341DAB624D0060C4FB /* 火龙果1.png */; };
 		2D99943B1DAB624D0060C4FB /* 火龙果2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D9994351DAB624D0060C4FB /* 火龙果2.png */; };
+		2DC2A84C1DC9C79A00EA1409 /* UIImage+WBColorImageHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC2A84B1DC9C79A00EA1409 /* UIImage+WBColorImageHelp.m */; };
 		2DEAFAA71DACF3C100078FF8 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEAFAA61DACF3C100078FF8 /* MenuTableViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,8 @@
 		2D9994331DAB624D0060C4FB /* 火龙果.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火龙果.png"; sourceTree = "<group>"; };
 		2D9994341DAB624D0060C4FB /* 火龙果1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火龙果1.png"; sourceTree = "<group>"; };
 		2D9994351DAB624D0060C4FB /* 火龙果2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火龙果2.png"; sourceTree = "<group>"; };
+		2DC2A84A1DC9C79A00EA1409 /* UIImage+WBColorImageHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WBColorImageHelp.h"; sourceTree = "<group>"; };
+		2DC2A84B1DC9C79A00EA1409 /* UIImage+WBColorImageHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WBColorImageHelp.m"; sourceTree = "<group>"; };
 		2DEAFAA51DACF3C100078FF8 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
 		2DEAFAA61DACF3C100078FF8 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +88,8 @@
 		2D45F7341DC8948900AD42CD /* 翻卡牌 */ = {
 			isa = PBXGroup;
 			children = (
+				2DC2A84A1DC9C79A00EA1409 /* UIImage+WBColorImageHelp.h */,
+				2DC2A84B1DC9C79A00EA1409 /* UIImage+WBColorImageHelp.m */,
 				2D07C5BC1DAE432000A40027 /* UIView+WBAnimationHelp.h */,
 				2D07C5BD1DAE432000A40027 /* UIView+WBAnimationHelp.m */,
 				2D45F7351DC894D400AD42CD /* FlipCard.h */,
@@ -275,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D99942C1DAB49DD0060C4FB /* cartedFruitPiece.m in Sources */,
+				2DC2A84C1DC9C79A00EA1409 /* UIImage+WBColorImageHelp.m in Sources */,
 				2D99941C1DAB47470060C4FB /* FruitToCart.m in Sources */,
 				2D9994041DAB471B0060C4FB /* ViewController.m in Sources */,
 				2D9994281DAB49650060C4FB /* Line.m in Sources */,

@@ -15,6 +15,11 @@
  */
 -(void)animationToPosition:(CGPoint)position controlPoint:(CGPoint)controlPoint duration:(float)duration;
 
+/*
+ *  贝塞尔交换
+ */
+-(void)ChangePositionToView:(UIView *)view duration:(float)du;
+
 -(void)CommitflipAnimationFromLeftComplish:(void(^)())complish;
 -(void)CommitflipAnimationFromRightComplish:(void(^)())complish;
 
