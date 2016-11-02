@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2D07C5BB1DAE275700A40027 /* CartPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D07C5BA1DAE275700A40027 /* CartPlayViewController.m */; };
 		2D07C5BE1DAE432000A40027 /* UIView+WBAnimationHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D07C5BD1DAE432000A40027 /* UIView+WBAnimationHelp.m */; };
+		2D45F7371DC894D400AD42CD /* FlipCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D45F7361DC894D400AD42CD /* FlipCard.m */; };
 		2D9993FE1DAB471B0060C4FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9993FD1DAB471B0060C4FB /* main.m */; };
 		2D9994011DAB471B0060C4FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9994001DAB471B0060C4FB /* AppDelegate.m */; };
 		2D9994041DAB471B0060C4FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9994031DAB471B0060C4FB /* ViewController.m */; };
@@ -33,8 +34,10 @@
 /* Begin PBXFileReference section */
 		2D07C5B91DAE275700A40027 /* CartPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartPlayViewController.h; sourceTree = "<group>"; };
 		2D07C5BA1DAE275700A40027 /* CartPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartPlayViewController.m; sourceTree = "<group>"; };
-		2D07C5BC1DAE432000A40027 /* UIView+WBAnimationHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WBAnimationHelp.h"; sourceTree = "<group>"; };
-		2D07C5BD1DAE432000A40027 /* UIView+WBAnimationHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WBAnimationHelp.m"; sourceTree = "<group>"; };
+		2D07C5BC1DAE432000A40027 /* UIView+WBAnimationHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+WBAnimationHelp.h"; path = "../UIView+WBAnimationHelp.h"; sourceTree = "<group>"; };
+		2D07C5BD1DAE432000A40027 /* UIView+WBAnimationHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+WBAnimationHelp.m"; path = "../UIView+WBAnimationHelp.m"; sourceTree = "<group>"; };
+		2D45F7351DC894D400AD42CD /* FlipCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipCard.h; sourceTree = "<group>"; };
+		2D45F7361DC894D400AD42CD /* FlipCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipCard.m; sourceTree = "<group>"; };
 		2D9993F91DAB471B0060C4FB /* WBGameTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBGameTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D9993FD1DAB471B0060C4FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2D9993FF1DAB471B0060C4FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,8 +50,8 @@
 		2D99940D1DAB471B0060C4FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D9994141DAB47470060C4FB /* BladingGes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BladingGes.h; sourceTree = "<group>"; };
 		2D9994151DAB47470060C4FB /* BladingGes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BladingGes.m; sourceTree = "<group>"; };
-		2D9994161DAB47470060C4FB /* FruitToCart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FruitToCart.h; path = "../划线/FruitToCart.h"; sourceTree = "<group>"; };
-		2D9994171DAB47470060C4FB /* FruitToCart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FruitToCart.m; path = "../划线/FruitToCart.m"; sourceTree = "<group>"; };
+		2D9994161DAB47470060C4FB /* FruitToCart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FruitToCart.h; sourceTree = "<group>"; };
+		2D9994171DAB47470060C4FB /* FruitToCart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FruitToCart.m; sourceTree = "<group>"; };
 		2D9994201DAB47A50060C4FB /* WBGameItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBGameItem.h; sourceTree = "<group>"; };
 		2D9994211DAB47A50060C4FB /* WBGameItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBGameItem.m; sourceTree = "<group>"; };
 		2D9994241DAB49420060C4FB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -79,6 +82,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D45F7341DC8948900AD42CD /* 翻卡牌 */ = {
+			isa = PBXGroup;
+			children = (
+				2D07C5BC1DAE432000A40027 /* UIView+WBAnimationHelp.h */,
+				2D07C5BD1DAE432000A40027 /* UIView+WBAnimationHelp.m */,
+				2D45F7351DC894D400AD42CD /* FlipCard.h */,
+				2D45F7361DC894D400AD42CD /* FlipCard.m */,
+			);
+			path = "翻卡牌";
+			sourceTree = "<group>";
+		};
 		2D9993F01DAB471B0060C4FB = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +113,9 @@
 		2D9993FB1DAB471B0060C4FB /* WBGameTest */ = {
 			isa = PBXGroup;
 			children = (
+				2D45F7341DC8948900AD42CD /* 翻卡牌 */,
 				2D99942F1DAB624D0060C4FB /* 切水果 */,
-				2D9994291DAB498C0060C4FB /* GameModels */,
-				2D99941F1DAB47630060C4FB /* gameSupport */,
-				2D9994131DAB47470060C4FB /* 划线 */,
+				2D99942E1DAB4C5C0060C4FB /* WBHeader.h */,
 				2D9993FF1DAB471B0060C4FB /* AppDelegate.h */,
 				2D9994001DAB471B0060C4FB /* AppDelegate.m */,
 				2D9994021DAB471B0060C4FB /* ViewController.h */,
@@ -142,11 +155,8 @@
 		2D99941F1DAB47630060C4FB /* gameSupport */ = {
 			isa = PBXGroup;
 			children = (
-				2D99942E1DAB4C5C0060C4FB /* WBHeader.h */,
 				2D9994201DAB47A50060C4FB /* WBGameItem.h */,
 				2D9994211DAB47A50060C4FB /* WBGameItem.m */,
-				2D07C5BC1DAE432000A40027 /* UIView+WBAnimationHelp.h */,
-				2D07C5BD1DAE432000A40027 /* UIView+WBAnimationHelp.m */,
 			);
 			path = gameSupport;
 			sourceTree = "<group>";
@@ -173,6 +183,9 @@
 		2D99942F1DAB624D0060C4FB /* 切水果 */ = {
 			isa = PBXGroup;
 			children = (
+				2D9994291DAB498C0060C4FB /* GameModels */,
+				2D99941F1DAB47630060C4FB /* gameSupport */,
+				2D9994131DAB47470060C4FB /* 划线 */,
 				2D9994301DAB624D0060C4FB /* 柠檬.png */,
 				2D9994311DAB624D0060C4FB /* 柠檬1.png */,
 				2D9994321DAB624D0060C4FB /* 柠檬2.png */,
@@ -267,6 +280,7 @@
 				2D9994281DAB49650060C4FB /* Line.m in Sources */,
 				2D07C5BB1DAE275700A40027 /* CartPlayViewController.m in Sources */,
 				2D07C5BE1DAE432000A40027 /* UIView+WBAnimationHelp.m in Sources */,
+				2D45F7371DC894D400AD42CD /* FlipCard.m in Sources */,
 				2D9994011DAB471B0060C4FB /* AppDelegate.m in Sources */,
 				2D9993FE1DAB471B0060C4FB /* main.m in Sources */,
 				2D99941B1DAB47470060C4FB /* BladingGes.m in Sources */,

@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "638dd711-6473-37d2-f33c-ce57b7db7bff",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "638dd711-6473-37d2-f33c-ce57b7db7bff" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "638dd711-6473-37d2-f33c-ce57b7db7bff" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3F67AC21-8B66-4DBA-AF60-B53A5C0923CA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "638dd711-6473-37d2-f33c-ce57b7db7bff" : "WBGameTest\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WBGameTest",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "trunk\/WBGameTest.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Benny-Wang-inBeijing\/WBGameTest",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "638dd711-6473-37d2-f33c-ce57b7db7bff"
+    }
+  ]
+}
